@@ -219,6 +219,7 @@ main .profileCard .languages {
     margin: 10px;
 
     color: black;
+    user-select: none;
 }
 
 .projects .projectCards .card h4 {
