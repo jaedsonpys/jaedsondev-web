@@ -176,11 +176,12 @@ main .profileCard .languages {
 .projects .about .title {
     font-size: 3.5rem;
     font-weight: 500;
-    line-height: 60px;
+    line-height: 70px;
 }
 
 .projects .about .title span {
     color: #2474ED;
+    text-decoration: underline;
 }
 
 .projects .about .aboutText {
