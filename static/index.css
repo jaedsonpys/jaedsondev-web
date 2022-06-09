@@ -166,7 +166,7 @@ main .profileCard .languages {
 
 .projects {
     margin-top: 200px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
     padding-left: 120px;
     padding-right: 120px;
 
@@ -245,4 +245,50 @@ main .profileCard .languages {
     background-color: #2D273B;
     color: white;
     border: 1px solid #2D273B;
+}
+
+.skills {
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.skills h1 {
+    font-size: 2rem;
+    color: #2D273B;
+}
+
+.skills h1 span {
+    background-image: linear-gradient(45deg, rebeccapurple, steelblue, turquoise);
+    background-clip: text;
+    -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+.skills .allSkills {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.skills .allSkills .card {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    box-shadow: inset 0 0 10px rgb(187, 187, 187);
+
+    border-radius: 10px;
+    margin: 10px;
+    width: 300px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+    color: #2D273B;
+}
+
+.skills .allSkills .card h2 {
+    font-weight: 400;
 }
