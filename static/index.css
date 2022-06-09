@@ -242,9 +242,9 @@ main .profileCard .languages {
 }
 
 .projects .projectCards .card:hover {
-    background-color: #2D273B;
     color: white;
-    border: 1px solid #2D273B;
+    border: 1px solid #ffffff;
+    background: linear-gradient(45deg, rebeccapurple, steelblue, turquoise);;
 }
 .projects .projectCards .card:hover h4 {
     color: white
