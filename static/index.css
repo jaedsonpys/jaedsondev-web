@@ -221,7 +221,7 @@ main .profileCard .languages {
     transition: 500ms;
     margin: 10px;
 
-    color: black;
+    color: #2D273B;
     user-select: none;
 }
 
@@ -245,6 +245,9 @@ main .profileCard .languages {
     background-color: #2D273B;
     color: white;
     border: 1px solid #2D273B;
+}
+.projects .projectCards .card:hover h4 {
+    color: white
 }
 
 .skills {
